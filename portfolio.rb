@@ -6,7 +6,7 @@ class Portfolio < Roda
   plugin :head
   plugin :assets, css: 'style.css'
   plugin :static, ['/images'], root: 'assets'
-  plugin :render
+  plugin :render, engine: 'haml' 
   plugin :public, root: 'public/images'
 
   route do |r|
