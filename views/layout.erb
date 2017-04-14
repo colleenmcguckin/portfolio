@@ -36,14 +36,14 @@
               ABOUT
             </div>
           </a>
-          <a href='/experience' class="nav-button undecorated <%= 'active' if @active == 'experience' %>">
-            <div>
-              EXPERIENCE
-            </div>
-          </a>
           <a href='/work' class="nav-button undecorated <%= 'active' if @active == 'work' %>">
             <div>
               WORK
+            </div>
+          </a>
+          <a href='/contact' class="nav-button undecorated <%= 'active' if @active == 'contact' %>">
+            <div>
+              CONTACT
             </div>
           </a>
           <div id="developer-button">
@@ -51,8 +51,9 @@
           </div>
         </div>
       </div>
-      <%= yield %>
-    </div>
+      <div class="page-container">
+        <%= yield %>
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

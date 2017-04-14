@@ -49,5 +49,22 @@ a.undecorated {
 }
 
 .page-heading {
+  font-family: 'Slabo 27px', serif;
+  border-bottom: 2px solid #fff;
+  color: #5d5e5e;
+  margin-bottom: 10px;
+}
+
+#hello {
+  width: 15%;
+  margin-bottom: 3px;
+}
+
+.page-content {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.page-content h5 {
+  font-family: 'Slabo 27px', serif;
+  color: #be1e2d;
 }

@@ -14,9 +14,9 @@ class Portfolio < Roda
       @active = 'about'
       view("about")
     end
-    r.get 'experience' do
-      @active = 'experience'
-      view("experience")
+    r.get 'contact' do
+      @active = 'contact'
+      view("contact")
     end
     r.get 'work' do
       @active = 'work'
