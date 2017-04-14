@@ -96,6 +96,11 @@ img {
 .icons{
   padding-top: 5px;
 }
+
+.footer-link{
+  margin-left: 20px;
+}
+
 #contact-icon, #linkedin, #github, #blog-icon{
   width: 3%;
 }
