@@ -93,9 +93,11 @@ img {
 .light-text{
   color: #e6e7e8;
 }
+
 .icons{
   padding-top: 5px;
 }
+
 #contact-icon, #linkedin, #github, #blog-icon{
   width: 3%;
 }
@@ -115,4 +117,40 @@ img {
 
 .footer-link:hover{
   text-decoration: none;
+}
+
+.btn-primary{
+  background-color: #be1e2d !important;
+  border-color: #be1e2d !important;
+}
+
+#reminder{
+  background-color: #be1e2d;
+  min-height: 100%;
+  border-radius: 4px;
+}
+.row.is-flex{
+  padding-right: 12px;
+  margin-bottom: 20px;
+}
+.row.is-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }

@@ -1,2 +1,17 @@
 .page-heading
   %h4 Let's Talk
+.page-content
+  .form
+    .row.is-flex
+      .col-md-9
+        - Forme.form(:action=>'/foo') do |f|
+          .form-group
+            = f.input(:string, name: 'name', placeholder: 'Your Name', class: 'form-control')
+          .form-group
+            = f.input(:string, name: 'email', placeholder: 'Your Email', class: 'form-control')
+          .form-group
+            = f.input(:textarea, name: 'message', placeholder: 'Your Message', rows: '10', cols: '60', class: 'form-control')
+
+          = f.button(value: 'Send It!', class: 'btn btn-primary')
+      .col-md-3#reminder
+        %h4.text-center.light-text Don't Forget!
