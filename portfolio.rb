@@ -7,9 +7,12 @@ class Portfolio < Roda
   plugin :assets, css: 'style.css'
   plugin :static, ['/images'], root: 'assets'
   plugin :render
+  plugin :public, root: 'public/images'
 
   route do |r|
+    r.public
     r.assets
+
     r.root do
       @active = 'about'
       view("about")

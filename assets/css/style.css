@@ -68,3 +68,11 @@ a.undecorated {
   font-family: 'Slabo 27px', serif;
   color: #be1e2d;
 }
+
+img {
+  width: 100%;
+}
+
+.project{
+  margin-bottom: 15px;
+}
