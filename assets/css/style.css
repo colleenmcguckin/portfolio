@@ -29,12 +29,15 @@ body {
   border-bottom: 2.5px solid #d1d3d4;
 
 }
+
 .nav-button:hover {
   border-bottom: 2.5px solid #fff;
 }
+
 a.active {
   border-bottom: 2.5px solid #be1e2d;
 }
+
 #developer-button {
   font-family: 'Slabo 27px', serif;
   background-color: #be1e2d;
@@ -50,7 +53,7 @@ a.undecorated {
 
 .page-heading {
   font-family: 'Slabo 27px', serif;
-  border-bottom: 2px solid #fff;
+  border-bottom: 1.5px solid #fff;
   color: #5d5e5e;
   margin-bottom: 10px;
 }
@@ -75,4 +78,41 @@ img {
 
 .project{
   margin-bottom: 15px;
+}
+
+.footer{
+  background-color: #be1e2d;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.container{
+  min-height:100vh;
+}
+
+.light-text{
+  color: #e6e7e8;
+}
+.icons{
+  padding-top: 5px;
+}
+#contact-icon, #linkedin, #github, #blog-icon{
+  width: 3%;
+}
+
+#resume-icon{
+  width: 2.25%;
+}
+
+#ruby-footer{
+  padding-left: 10%;
+}
+
+#footer-hr{
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+.footer-link:hover{
+  text-decoration: none;
 }
