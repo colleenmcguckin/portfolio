@@ -3,6 +3,8 @@ GEM
   specs:
     coderay (1.1.1)
     erubis (2.7.0)
+    haml (4.0.7)
+      tilt
     method_source (0.8.2)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -21,6 +23,7 @@ PLATFORMS
 
 DEPENDENCIES
   erubis
+  haml
   pry
   rack
   rack-unreloader
