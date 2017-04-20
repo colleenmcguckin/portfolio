@@ -21,6 +21,7 @@ PLATFORMS
 DEPENDENCIES
   erubis
   pry
+  rack
   rack-unreloader
   roda
   tilt
