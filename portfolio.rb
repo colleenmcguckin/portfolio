@@ -1,4 +1,5 @@
 # ./portfolio.rb
+require 'roda'
 
 class Portfolio < Roda
   plugin :static, ["/images", "/css", "/js"]
