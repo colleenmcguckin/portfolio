@@ -127,10 +127,10 @@ img {
   margin-top: 10px !important;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .navigation {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
   }
 
@@ -141,18 +141,4 @@ img {
     padding: 3px;
     border-bottom: 2.5px solid #d1d3d4;
   }
-
-  #developer-button, #ruby-footer {
-    display: none;
-  }
-
-  #contact-icon, #linkedin, #github, #blog-icon{
-    width: 7%;
-  }
-
-
-  #resume-icon{
-    width: 5%;
-  }
-
 }

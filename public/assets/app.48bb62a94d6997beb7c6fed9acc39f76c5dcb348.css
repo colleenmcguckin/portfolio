@@ -142,17 +142,11 @@ img {
     border-bottom: 2.5px solid #d1d3d4;
   }
 
-  #developer-button, #ruby-footer {
-    display: none;
+  #developer-button {
+    visibility: hidden;
   }
 
-  #contact-icon, #linkedin, #github, #blog-icon{
-    width: 7%;
+  #ruby-footer {
+    width: 50%;
   }
-
-
-  #resume-icon{
-    width: 5%;
-  }
-
 }

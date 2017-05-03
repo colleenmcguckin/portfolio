@@ -146,13 +146,5 @@ img {
     display: none;
   }
 
-  #contact-icon, #linkedin, #github, #blog-icon{
-    width: 7%;
-  }
-
-
-  #resume-icon{
-    width: 5%;
-  }
 
 }

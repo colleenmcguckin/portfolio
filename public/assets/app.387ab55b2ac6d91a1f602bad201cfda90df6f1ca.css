@@ -143,16 +143,6 @@ img {
   }
 
   #developer-button, #ruby-footer {
-    display: none;
+    visibility: hidden;
   }
-
-  #contact-icon, #linkedin, #github, #blog-icon{
-    width: 7%;
-  }
-
-
-  #resume-icon{
-    width: 5%;
-  }
-
 }

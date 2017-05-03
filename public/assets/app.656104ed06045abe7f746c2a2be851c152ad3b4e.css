@@ -127,7 +127,7 @@ img {
   margin-top: 10px !important;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -141,18 +141,20 @@ img {
     padding: 3px;
     border-bottom: 2.5px solid #d1d3d4;
   }
+}
 
-  #developer-button, #ruby-footer {
-    display: none;
+@media (min-width: 769px) {
+  .navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
   }
 
-  #contact-icon, #linkedin, #github, #blog-icon{
-    width: 7%;
+  .nav-button {
+    font-family: 'Slabo 27px', serif;
+    font-size: 3rem;
+    color: #5d5e5e;
+    padding: 3px;
+    border-bottom: 2.5px solid #d1d3d4;
   }
-
-
-  #resume-icon{
-    width: 5%;
-  }
-
 }
